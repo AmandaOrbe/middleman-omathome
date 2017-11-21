@@ -3,3 +3,219 @@
 // @import "dashboard";
 // @import "profile";
 // @import "map";
+
+.wrapper{
+    background-image: url(../images/background.png);
+}
+
+.container1{
+  width: 750px;
+  margin: 0 auto;
+}
+
+.banner1{
+ padding: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+.container-image {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+}
+.banner1image {
+  height: 400px;
+  width: auto;
+  margin-left: -25%;
+
+}
+
+.banner1-right {
+  text-align: center;
+  width: 350px;
+  margin-left: 50px;
+
+}
+
+.transition {
+  text-align:center;
+  padding:80px;
+}
+
+.logos{
+  height: 30px;
+  width: auto;
+}
+
+.carre-white{
+  background-color: white;
+  border: 1px dotted black;
+}
+
+.avantages{
+  text-align:center;
+   padding: 15px;
+
+}
+
+
+
+.posture{
+ background-color: transparent;
+ bottom: 0;
+ width: 150px;
+ padding-bottom: 30px;
+
+
+}
+
+.avantage-card{
+  height: 400px;
+  width: 250px;
+}
+
+.avantage-card-text{
+  width:80%;
+}
+
+.avantage-container{
+  height:210px;
+  width:250px;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.banner2{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   height:400px;
+   width: 100%;
+   background-color: black;
+
+
+}
+.container-image2 {
+
+
+}
+
+.banner2image {
+  height: 400px;
+  width: auto;
+  padding: 3px;
+
+ }
+
+
+ .banner2-right{
+  width: 450px;
+  color: white !important;
+  padding-right: 30px;
+  h4{
+    text-align: center;
+  }
+  ul{
+   text-align: left;
+  }
+
+}
+
+.line{
+  padding-left: 40px;
+  display: flex;
+  justify-content: space between;
+  align-items: baseline;
+  color: white !important;
+}
+
+.line-text{
+  width: 220px;
+  text-align: left;
+  margin-left:30px;
+  bottom: 5px;
+  vertical-align: bottom;
+
+}
+
+
+.line-num{
+  bottom: 5px;
+   vertical-align: bottom;
+}
+
+
+.target{
+  text-align: center;
+  height: 500px;
+  padding: 15px;
+  background-color: white;
+  border: 1px dotted black;
+}
+
+.poses{
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+}
+
+.row{
+  margin: 30px;
+}
+
+
+.featured{
+  width:100%;
+  height: 400px;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  border: 1px dotted black;
+
+}
+.text-center{
+  text-align: center;
+}
+
+.featured-teacher{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.teacher-big{
+  width:250px;
+  height: 250px;
+}
+
+.teacher-text{
+  padding-right: 30px;
+  width:350px;
+}
+
+.top-padded{
+  padding-top: 25px;
+}
+
+.space{
+  height:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

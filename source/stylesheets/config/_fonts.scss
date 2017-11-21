@@ -1,9 +1,8 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:200,400");
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+$body-font: 'Montserrat', "Helvetica", "sans-serif";
+$headers-font: "Lora", "serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +13,68 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+
+h1 {
+  font-family: 'Lora', cursive;
+  font-size: 28px !important;
+  color:black;
+}
+
+h2 {
+  font-family: 'Lora', cursive;
+  font-size: 26px !important;
+  color:black;
+}
+
+h3 {
+  font-family: 'Montserrat', "Helvetica", "sans-serif";
+  font-weight: 200 !important;
+  font-size: 20px;
+  color:black;
+}
+h4{
+  font-family: 'Lora', cursive;
+  font-size: 16px !important;
+  font-weight: 400!important;
+  color:black;
+}
+
+h5{
+  font-family: 'Montserrat', "Helvetica", "sans-serif";
+  font-weight: 400;
+  font-size: 16px !important;
+   color:#DAC0A0;
+}
+
+p {
+  font-family: 'Montserrat', "Helvetica", "sans-serif";
+  font-weight: 200;
+  font-size: 12px;
+ }
+
+a{
+    font-family: 'Montserrat', "Helvetica", "sans-serif";
+  font-weight: 200 !important;
+  font-size: 16px;
+  color:black !important;
+  }
+.banner2{
+li{
+    font-family: 'Montserrat', "Helvetica", "sans-serif";
+  font-weight: 200;
+  font-size: 12px;
+   color:white;
+}
+}
+
+ul {
+  list-style-type: none;
+}
+
+.goldy{
+  font-family: 'Montserrat', "Helvetica", "sans-serif" !important;
+    font-weight: 200 !important;
+    color: #DAC0A0;
+    margin-left:0;
+}
