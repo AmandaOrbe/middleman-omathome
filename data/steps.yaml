@@ -1,0 +1,17 @@
+-reservez:
+  name: tranquilité
+  description: Vous réservez votre cours en ligne en quelques clics
+  photo: reservez.png
+
+-arrive:
+  description:  L’instructeur se rend à l’adresse indiquée avec l’équipement néccessaire
+  photo: arrive.png
+
+-discutez:
+  name: simplicité
+  description:  Vous discutez avec votre instructeur pour un cours 100% personnalisé
+  photo: discutez.png
+
+-om:
+  description:  Et….OM!
+  photo: om.png

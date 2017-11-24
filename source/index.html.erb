@@ -5,34 +5,36 @@ title: Le Wagon - Middleman
   <div class="container1">
     <div class="space">
     </div>
-    <div class="banner1 carre-white">
-      <div class="container-image">
-        <%= image_tag "images/yogaencasa.jpg", class: "banner1image"%>
-      </div>
-      <div class="banner1-right">
 
-        <h1>ENFIN DES COURS DE YOGA PRIVÉS À DOMICILE À PARIS</h1>
-        <br>
-        <h4><i>Choisissez le type de cours la date te l’heure du service et hop ! les meilleurs profs de yoga se rendent chez vous pour un service de qualité !</i></h4>
-        <div class="home-form">
-          <h2>aqui va la form</h2>
+
+
+<%= partial "banner1" %>
+    <div class="content-block">
+      <h3>COMMENT ÇA MARCHE?</h3>
+      <div class="row">
+        <%data.steps.each do |step| %>
+        <div class="col-xs-12 col-sm-3">
+          <div class="step-card">
+            <div class="avantage-container">
+              <%= image_tag step[1].photo,  class: "posture" %>
+            </div>
+            <div class="avantage-card-text">
+              <p><%= step[1].description %></p>
+            </div>
+          </div>
         </div>
+        <% end %>
       </div>
-    </div>
-
-
-
-
-
-    <div class="transition">
+      <div class="btn-margin">
+        <%= link_to "RESERVEZ VOTRE COURS DE YOGA", "form.html" , class: "btn-gold" %>
+      </div>
       <%= image_tag "images/yogi_icons.png", class: "logos"%>
     </div>
 
 
+    <div class="content-block">
 
-    <div class="avantages carre-white">
-      <h2>YOGA A DOMICILE</h2>
-      <h2><i>Pourquoi utiliser </i><span class="goldy">OMATHOME</span></h2>
+      <h3>POURQUOI UTILISER <span class="goldy">OMATHOME</span></h3>
       <div class="row">
         <%data.avantages.each do |avantage| %>
         <div class="col-xs-12 col-sm-4">
@@ -50,65 +52,28 @@ title: Le Wagon - Middleman
         </div>
         <% end %>
       </div>
-      <div class="btn-center">
-        <%= link_to "TROUVEZ VOTRE INSTRUCTEUR DE YOGA", "form.html" , class: "btn-gold " %>
+      <div class="btn-center ">
+        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold" %>
       </div>
-    </div>
-    <div class="transition">
-      <%= image_tag "images/yogi_icons.png", class: "logos"%>
-    </div>
-    <br>
-    <br>
-
-    <div class="banner2">
-     <div class="container-image2">
-      <%= image_tag "images/ardhapurvottanasana.png", class: "banner2image"%>
-    </div>
-    <div class="banner2-right">
-      <h4>COMMENT ÇA MARCHE?</h4>
-      <br>
-      <div class="line">
-        <h2  class="line-num">1</h2>
-        <p class="line-text">Résevez votre cours de yoga en ligne </p>
-      </div>
-      <div class="line">
-        <h2 class="line-num">2</h2>
-        <p class="line-text">Votre instructeur se rend chez vous ou dans votre lieu de travail</p>
-      </div>
-      <div class="line">
-        <h2  class="line-num">3</h2>
-        <p class="line-text">Relachez vous et OM!</p>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="transition">
-    <%= image_tag "images/yogi_icons.png", class: "logos"%>
-  </div>
-
-
-  <div class="target">
-    <h2>NOUS AVONS DES COURS POUR</h2>
-    <%= image_tag "images/sunsalutation.png", class: "poses"%>
-    <br>
-    <div class="row">
-      <h4>méditation, débutants, avancés, runners, hommes, femmes, prénatal, voyageurs.... </H4>
-        <h3>TOUT LE MONDE!</h3>
-      </div>
-      <div class="btn-center">
-        <%= link_to "TROUVEZ VOTRE COURS DE YOGA", "form.html" , class: "btn-gold" %>
-      </div>
-    </div>
-
-    <div class="transition">
       <%= image_tag "images/yogi_icons.png", class: "logos"%>
     </div>
 
 
+    <div class="content-block">
 
-    <div class="featured">
-      <h3 class="text-center">FEATURED TEACHERS</h3>
+      <h3>NOS COURS S’ADAPTENT À VOUS</h3>
+      <%= image_tag "images/sunsalutations.png", class: "poses"%>
+      <h4>méditation, débutants, avancés, hommes, femmes, enfants, voyageurs....</h4>
+      <h4><i>Tout le monde ! </i></h4>
+      <div class="btn-margin">
+        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold" %>
+      </div>
+      <%= image_tag "images/yogi_icons.png", class: "logos"%>
+    </div>
+
+    <div class="content-block">
+
+      <h3>FEATURED TEACHERS</h3>
       <div class="featured-teacher">
         <br>
         <br>
@@ -116,20 +81,17 @@ title: Le Wagon - Middleman
         <%= image_tag "images/natalya.png", class: "teacher-big"%>
         <div class="teacher-text">
           <h3 class="goldy">NATALYA A.</h3>
-          <h5 class="goldy">ashtanga</h5>
+          <p class="goldy">ashtanga</p>
           <p>Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique. C’est à ce moment qu’elle a découvert l’Ashtanga : un vrai coup de cœur !m</p>
-          <div class="btn-center top-padded">
+          <div class="btn-margin">
             <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold" %>
           </div>
         </div>
 
       </div>
-    </div>
-    <div class="transition">
-      <%= image_tag "images/yogi_icons.png", class: "logos"%>
+
     </div>
   </div>
 </div>
-
 
 

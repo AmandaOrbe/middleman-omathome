@@ -1,0 +1,47 @@
+
+.banner1{
+ padding: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+.container-image {
+    width: 400px;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align:right;
+
+}
+.banner1image {
+  height: 450px;
+  width: auto;
+
+
+}
+
+.banner1-right {
+  text-align: center;
+  width: 430px;
+  margin-left: 50px;
+
+}
+
+.call-to-action{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.home-form{
+  width: 330px;
+}
+
+.price{
+  width: 100px;
+  font-weight: 40px !important;
+  vertical-align: center;
+}
+
+.vertical-center{
+  margin-top: 50px;
+}

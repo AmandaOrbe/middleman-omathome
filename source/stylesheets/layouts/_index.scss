@@ -5,83 +5,50 @@
 // @import "map";
 
 .wrapper{
-    background-image: url(../images/background.png);
+    // background-image: url(../images/background.png);
+    background-color:white;
 }
 
 .container1{
-  width: 750px;
+  width: 950px;
   margin: 0 auto;
 }
 
-.banner1{
- padding: 15px;
-  display:flex;
-  justify-content: space-between;
-}
-.container-image {
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
 
-}
-.banner1image {
-  height: 400px;
-  width: auto;
-  margin-left: -25%;
 
+
+.content-block{
+text-align:center;
+margin-top:40px;
 }
 
-.banner1-right {
-  text-align: center;
-  width: 350px;
-  margin-left: 50px;
 
-}
 
 .transition {
-  text-align:center;
-  padding:80px;
+
 }
 
 .logos{
   height: 30px;
   width: auto;
-}
-
-.carre-white{
-  background-color: white;
-  border: 1px dotted black;
-}
-
-.avantages{
-  text-align:center;
-   padding: 15px;
-
+  margin: 40px auto;
 }
 
 
-
-.posture{
- background-color: transparent;
- bottom: 0;
- width: 150px;
- padding-bottom: 30px;
-
-
+.step-card{
+  height: 300px;
+  width: 100%;
 }
+
 
 .avantage-card{
   height: 400px;
-  width: 250px;
-}
-
-.avantage-card-text{
-  width:80%;
+  width: 100%;
 }
 
 .avantage-container{
   height:210px;
-  width:250px;
+  width:100%;
   top: 0;
   display: flex;
   align-items: flex-end;
@@ -89,65 +56,37 @@
 
 }
 
-.banner2{
+.posture{
+ background-color: transparent;
+ bottom: 0;
+ width: 200px;
+ padding-bottom: 30px;
 
-  display: flex;
+
+}
+
+.avantage-card-text{
+  width:80%;
+  margin: 0 auto;
+}
+
+.featured-teacher{
+  display:flex;
   justify-content: space-between;
-  align-items: center;
-   height:400px;
-   width: 100%;
-   background-color: black;
-
-
-}
-.container-image2 {
-
-
+  padding-top: 30px;
+  width: 800px;
+  margin: 40px auto;
 }
 
-.banner2image {
-  height: 400px;
-  width: auto;
-  padding: 3px;
-
- }
-
-
- .banner2-right{
-  width: 450px;
-  color: white !important;
-  padding-right: 30px;
-  h4{
-    text-align: center;
-  }
-  ul{
-   text-align: left;
-  }
-
-}
-
-.line{
-  padding-left: 40px;
-  display: flex;
-  justify-content: space between;
-  align-items: baseline;
-  color: white !important;
-}
-
-.line-text{
-  width: 220px;
+.teacher-text{
   text-align: left;
-  margin-left:30px;
-  bottom: 5px;
-  vertical-align: bottom;
-
+  padding-right: 30px;
+  width:350px;
 }
 
 
-.line-num{
-  bottom: 5px;
-   vertical-align: bottom;
-}
+
+
 
 
 .target{
@@ -193,17 +132,14 @@
   height: 250px;
 }
 
-.teacher-text{
-  padding-right: 30px;
-  width:350px;
-}
+
 
 .top-padded{
   padding-top: 25px;
 }
 
 .space{
-  height:100px;
+  height:40px;
 }
 
 

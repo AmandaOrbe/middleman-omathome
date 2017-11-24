@@ -1,0 +1,89 @@
+.form-control {
+  width: 300px;
+  height: 34px;
+  padding: 20px 20px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: black;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  background-color: white;
+
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.LabeledTextInput {
+    position: relative;
+    width: 300px;
+}
+
+.TeamForm-input {
+    box-shadow: 0 1px 0 0 #eee;
+}
+
+.LabeledTextInput-label {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-style: normal;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #c9cace;
+    font-size: 14px;
+    line-height: 16px;
+    left:6px;
+    top: 9px;
+    z-index: 1;
+    -webkit-transform: translateY(9px);
+    transform: translateY(9px);
+    position: absolute;
+    pointer-events: none;
+
+}
+
+.LabeledTextInput-label--elevated {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.LabeledTextInput-inputContainer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.LabeledTextInput-field {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    color: #404247;
+    font-size: 13px;
+    font-style: normal;
+    text-align: left;
+    height: 48px;
+    width: 100%;
+    padding: 30px 0 12px;
+    resize: none;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin-top: 8px
+
+}
+
+.lola{
+  color: #20CA78;
+}
+
+
