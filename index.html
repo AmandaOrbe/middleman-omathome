@@ -7,7 +7,7 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>Le Wagon - Middleman</title>
-  <link href="stylesheets/application-b4f52832.css" rel="stylesheet" />
+  <link href="stylesheets/application-fd11bb46.css" rel="stylesheet" />
   <script src="javascripts/application-61e375af.js"></script>
   <link href="images/om_favicon-a28ab54e.png" rel="icon" type="image/png" />
 </head>
@@ -15,13 +15,21 @@
 
       <div class="navbar">
 
-    <div class="navbar-content">
-      <ul class="list-inline links-list">
+    <div class="navbar-content desktop-navbar">
+      <ul class="list-inline links-list ">
         <a href="./" id="logo">OMATHOME</a>
         <a href="blog.html">BLOG</a>
         <a href="teachers.html">TEACHERS</a>
         <a href="/login.html">LOGIN</a>
         <a href="/signup.html">SIGNUP</a>
+      </ul>
+    </div>
+    <div class="navbar-content mobile-navbar">
+      <a href="./" id="logo">OMATHOME</a>
+      <ul class="list-inline links-list ">
+        <a href="blog.html">BLOG</a>
+        <a href="teachers.html">TEACHERS</a>
+        <a href="/login.html">LOGIN</a>
       </ul>
     </div>
   </div>
@@ -36,68 +44,78 @@
 
 
 <div class="content-block">
-  <div class="banner1">
-    <div class="container-image">
-      <img src="images/holyyogi-d989c4c4.jpeg" class="banner1image" alt="Holyyogi" />
-    </div>
-    <div class="banner1-right">
-      <br>
-      <br>
-      <h1>LE YOGA À LA DEMANDE
-      ENFIN À PARIS</h1>
-      <br>
-      <h2><i>Profitez d’un cours personnalisé de yoga ou médiation où que vous soyez</i></h4>
-      <div class="call-to-action">
-        <div class="form-group ">
-          <div class="LabeledTextInput TeamForm-input">
-            <div class="LabeledTextInput-label LabeledTextInput-label--elevated">
+  <div class="row">
+      <div class="col-xs-12 col-sm-6 ">
+        <div class="container-image">
+          <img src="images/holyyogi-d989c4c4.jpeg" class="banner1image" alt="Holyyogi" />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 ">
+        <div class="banner1-right">
+          <br>
+          <br>
+          <h1>LE YOGA À LA DEMANDE
+          ENFIN À PARIS</h1>
+          <br>
+          <h2><i>Profitez d’un cours personnalisé de yoga ou médiation où que vous soyez</i></h4>
+            <div class="call-to-action">
+              <div class="form-group ">
+                <div class="LabeledTextInput TeamForm-input">
+                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">
+                  </div>
+                  <span class="LabeledTextInput-inputContainer">
+                    <select name="type-event" id="" class="TextInput LabeledTextInput-field ">
+                      <option value="" class="TextInput LabeledTextInput-field">Cours individuel</option>
+                      <option value="" class="TextInput LabeledTextInput-field">Deux personnes</option>
+                      <option value="" class="TextInput LabeledTextInput-field">Trois personnes</option>
+                      <option value="" class="TextInput LabeledTextInput-field">Quatre personnes</option>
+                    </select>
+                  </span>
+                </div>
+
+                <div class="LabeledTextInput TeamForm-input">
+                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Date
+                  </div>
+                  <span class="LabeledTextInput-inputContainer">
+                    <input type="date" name="date" id="" class="TextInput LabeledTextInput-field" min="">
+
+                  </span>
+                </div>
+
+                <div class="LabeledTextInput TeamForm-input ">
+                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Heure
+                  </div>
+
+                  <span class="LabeledTextInput-inputContainer">
+                    <input type="time" name="type-event" id="" class="TextInput LabeledTextInput-field" step="1800">
+                  </span>
+                </div>
+              </div>
+
+
+
+
+              <div class="price">
+                <h5 class= vertical-center>45€</h5>
+              </div>
             </div>
-            <span class="LabeledTextInput-inputContainer">
-              <select name="type-event" id="" class="TextInput LabeledTextInput-field ">
-                <option value="" class="TextInput LabeledTextInput-field">Cours individuel</option>
-                <option value="" class="TextInput LabeledTextInput-field">Deux personnes</option>
-                <option value="" class="TextInput LabeledTextInput-field">Trois personnes</option>
-                <option value="" class="TextInput LabeledTextInput-field">Quatre personnes</option>
-              </select>
-              </span>
-          </div>
 
-          <div class="LabeledTextInput TeamForm-input">
-            <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Date
-            </div>
-            <span class="LabeledTextInput-inputContainer">
-              <input type="date" name="date" id="" class="TextInput LabeledTextInput-field" min="">
 
-              </span>
-          </div>
+                <a href="form.html" class="btn-gold btn-wide">RESERVEZ VOTRE COURS</a>
 
-          <div class="LabeledTextInput TeamForm-input ">
-            <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Heure
             </div>
 
-            <span class="LabeledTextInput-inputContainer">
-              <input type="time" name="type-event" id="" class="TextInput LabeledTextInput-field" step="1800">
-              </span>
-          </div>
         </div>
 
 
-
-
-        <div class="price">
-          <h5 class= vertical-center>45€</h5>
-        </div>
-      </div>
-      <div class="btn-banner ">
-        <a href="form.html" class="btn-gold btn-wide">RESERVEZ VOTRE COURS</a>
-      </div>
     </div>
-
+    <div class="transition">
+      <img src="images/yogi_icons-20267e56.png" class="logos" alt="Yogi icons" />
+    </div>
   </div>
-  <div class="transition">
-        <img src="images/yogi_icons-20267e56.png" class="logos" alt="Yogi icons" />
-    </div>
-</div>
+
+
+
 
 
 
@@ -222,16 +240,21 @@
         <br>
         <br>
         <br>
-        <img src="images/natalya-bf2d0a0c.png" class="teacher-big" alt="Natalya" />
-        <div class="teacher-text">
-          <h3 class="goldy">NATALYA A.</h3>
-          <p class="goldy">ashtanga</p>
-          <p>Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique. C’est à ce moment qu’elle a découvert l’Ashtanga : un vrai coup de cœur !m</p>
-          <div class="btn-margin">
-            <a href="form.html" class="btn-gold">RESERVEZ VOTRE COURS</a>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <img src="images/natalya-bf2d0a0c.png" class="teacher-big" alt="Natalya" />
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="teacher-text">
+            <h3 class="goldy">NATALYA A.</h3>
+            <p class="goldy">ashtanga</p>
+            <p>Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique. C’est à ce moment qu’elle a découvert l’Ashtanga : un vrai coup de cœur !m</p>
+            <div class="btn-margin">
+              <a href="form.html" class="btn-gold">RESERVEZ VOTRE COURS</a>
+            </div>
           </div>
         </div>
-
+        </div>
       </div>
 
     </div>
