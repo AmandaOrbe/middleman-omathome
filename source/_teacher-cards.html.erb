@@ -1,0 +1,22 @@
+<div class="content-block">
+      <h3>OUR CURATED TEACHERS</h3>
+      <div class="row">
+        <%data.teachers.each do |teacher| %>
+        <div class="col-xs-12 col-sm-3">
+          <div class="step-card">
+            <div class="teacher-container">
+              <%= image_tag teacher[1].photo,  class: "teacher" %>
+            </div>
+            <div class="avantage-card-text">
+              <h4><%= teacher[1].name %></h4>
+              <p><%= teacher[1].tag %></p>
+            </div>
+          </div>
+        </div>
+        <% end %>
+      </div>
+      <div class="btn-margin">
+        <%= link_to "RESERVEZ VOTRE COURS DE YOGA", "form.html" , class: "btn-gold btn-85" %>
+      </div>
+      <%= image_tag "images/yogi_icons.png", class: "logos"%>
+    </div>

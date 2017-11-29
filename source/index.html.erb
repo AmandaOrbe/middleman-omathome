@@ -9,6 +9,7 @@ title: Le Wagon - Middleman
 
 
 <%= partial "banner1" %>
+<%= partial "teacher-cards" %>
     <div class="content-block">
       <h3>COMMENT ÇA MARCHE?</h3>
       <div class="row">
@@ -26,7 +27,7 @@ title: Le Wagon - Middleman
         <% end %>
       </div>
       <div class="btn-margin">
-        <%= link_to "RESERVEZ VOTRE COURS DE YOGA", "form.html" , class: "btn-gold" %>
+        <%= link_to "RESERVEZ VOTRE COURS DE YOGA", "form.html" , class: "btn-gold btn-85" %>
       </div>
       <%= image_tag "images/yogi_icons.png", class: "logos"%>
     </div>
@@ -53,7 +54,7 @@ title: Le Wagon - Middleman
         <% end %>
       </div>
       <div class="btn-center ">
-        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold" %>
+        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold btn-85" %>
       </div>
       <%= image_tag "images/yogi_icons.png", class: "logos"%>
     </div>
@@ -66,7 +67,7 @@ title: Le Wagon - Middleman
       <h4>méditation, débutants, avancés, hommes, femmes, enfants, voyageurs....</h4>
       <h4><i>Tout le monde ! </i></h4>
       <div class="btn-margin">
-        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold" %>
+        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold btn-85" %>
       </div>
       <%= image_tag "images/yogi_icons.png", class: "logos"%>
     </div>
@@ -78,16 +79,21 @@ title: Le Wagon - Middleman
         <br>
         <br>
         <br>
-        <%= image_tag "images/natalya.png", class: "teacher-big"%>
-        <div class="teacher-text">
-          <h3 class="goldy">NATALYA A.</h3>
-          <p class="goldy">ashtanga</p>
-          <p>Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique. C’est à ce moment qu’elle a découvert l’Ashtanga : un vrai coup de cœur !m</p>
-          <div class="btn-margin">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <%= image_tag "images/natalya.png", class: "teacher-big"%>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="teacher-text">
+            <h3 class="goldy">NATALYA A.</h3>
+            <p class="goldy">ashtanga</p>
+            <p>Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique. C’est à ce moment qu’elle a découvert l’Ashtanga : un vrai coup de cœur !m</p>
+
             <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold" %>
+
           </div>
         </div>
-
+        </div>
       </div>
 
     </div>

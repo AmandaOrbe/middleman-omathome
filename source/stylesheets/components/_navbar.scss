@@ -39,7 +39,7 @@ align-items: baseline;
 .navbar-content{
   left: 0;
   right: 0;
-  width: 800px;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -48,6 +48,43 @@ align-items: baseline;
   padding-top: 20px;
 
 }
+
+.mobile-navbar{
+  display: block;
+  text-align: center;
+  }
+
+@media (max-width: 767px) {
+
+  .desktop-navbar{
+  display: none;
+  }
+  .navbar{
+  height:80px;
+  }
+}
+
+@media (min-width: 767px) {
+
+  .mobile-navbar{
+  display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // /* Main navbar */

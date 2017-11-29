@@ -2,8 +2,17 @@
   background-color: $gold;
   border-radius: 25px;
   padding: 7px 25px;
+}
 
+.btn-85{
+ width: 85%;
+}
 
+.btn-gold:hover{
+  background-color: #C7AF92;
+  text-decoration: none;
+  transition:  0.3s ease;
+  font-size: 16px;
 }
 
 
@@ -16,13 +25,11 @@
    margin: 40px auto;
 }
 
-.btn-banner{
-    margin: 20px 0 auto;
-}
 
 .btn-wide{
-  background-color: #DAC0A0;
-    border-radius: 25px;
-    padding: 7px 112px;
-    margin-top: 15px;
+    display: block;
+    width: 100%;
+    margin-top:30px;
 }
+
+

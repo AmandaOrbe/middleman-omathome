@@ -1,75 +1,75 @@
 <div class="content-block">
-  <div class="banner1">
-    <div class="container-image">
-      <%= image_tag "images/holyyogi.jpeg", class: "banner1image"%>
-    </div>
-    <div class="banner1-right">
-      <br>
-      <br>
-      <h1>LE YOGA À LA DEMANDE
-      ENFIN À PARIS</h1>
-      <br>
-      <h2><i>Profitez d’un cours personnalisé de yoga ou médiation où que vous soyez</i></h4>
-      <div class="call-to-action">
-        <div class="form-group ">
-          <div class="LabeledTextInput TeamForm-input">
-            <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Nombre d'assistants
+  <div class="row">
+      <div class="col-xs-12 col-sm-6 ">
+        <div class="container-image">
+          <%= image_tag "images/holyyogi.jpeg", class: "banner1image"%>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 ">
+        <div class="banner1-right">
+          <br>
+          <br>
+          <h1>LE YOGA À LA DEMANDE
+          ENFIN À PARIS</h1>
+          <br>
+          <h2><i>Profitez d’un cours personnalisé de yoga ou médiation où que vous soyez</i></h4>
+            <div class="call-to-action">
+              <div class="form-group ">
+                <div class="LabeledTextInput TeamForm-input">
+                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">
+                  </div>
+                  <span class="LabeledTextInput-inputContainer">
+                    <select name="type-event" id="" class="TextInput LabeledTextInput-field ">
+                      <option value="" class="TextInput LabeledTextInput-field">Cours individuel</option>
+                      <option value="" class="TextInput LabeledTextInput-field">Deux personnes</option>
+                      <option value="" class="TextInput LabeledTextInput-field">Trois personnes</option>
+                      <option value="" class="TextInput LabeledTextInput-field">Quatre personnes</option>
+                    </select>
+                  </span>
+                </div>
+
+                <div class="LabeledTextInput TeamForm-input">
+                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Date
+                  </div>
+                  <span class="LabeledTextInput-inputContainer">
+                    <input type="date" name="date" id="" class="TextInput LabeledTextInput-field" min="<%Date.today %>">
+
+                  </span>
+                </div>
+
+                <div class="LabeledTextInput TeamForm-input ">
+                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Heure
+                  </div>
+
+                  <span class="LabeledTextInput-inputContainer">
+                    <input type="time" name="type-event" id="" class="TextInput LabeledTextInput-field" step="1800">
+                  </span>
+                </div>
+              </div>
+
+
+
+
+              <div class="price">
+                <h5 class= vertical-center>45€</h5>
+              </div>
             </div>
-            <span class="LabeledTextInput-inputContainer">
-              <select name="type-event" id="" class="TextInput LabeledTextInput-field">
-                <option value="" class="lola">Une personne</option>
-                <option value="" class="TextInput LabeledTextInput-field">Deux personnes</option>
-                <option value="" class="TextInput LabeledTextInput-field">Trois personnes</option>
-                <option value="" class="TextInput LabeledTextInput-field">Quatre personnes</option>
-              </select>
-              </span>
-          </div>
-          <div class="LabeledTextInput TeamForm-input">
-            <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Type de cours
-            </div>
-            <span class="LabeledTextInput-inputContainer">
-              <select name="type-event" id="" class="TextInput LabeledTextInput-field">
-                <option value="">Evento</option>
-                <option value="">Barco</option>
-                <option value="">Taller de cócteles</option>
-              </select>
-              </span>
-          </div>
 
 
+                <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold btn-wide" %>
 
-          <div class="LabeledTextInput TeamForm-input">
-            <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Type de cours
             </div>
 
-
-
-
-            <span class="LabeledTextInput-inputContainer">
-              <select name="type-event" id="" class="TextInput LabeledTextInput-field">
-                <option value="">Evento</option>
-                <option value="">Barco</option>
-                <option value="">Taller de cócteles</option>
-              </select>
-              </span>
-          </div>
         </div>
 
 
-
-        <div class="price">
-          <h5 class= vertical-center>45€</h5>
-        </div>
-      </div>
-      <div class="btn-banner ">
-        <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-gold btn-wide" %>
-      </div>
     </div>
-
+    <div class="transition">
+      <%= image_tag "images/yogi_icons.png", class: "logos"%>
+    </div>
   </div>
-  <div class="transition">
-        <%= image_tag "images/yogi_icons.png", class: "logos"%>
-    </div>
-</div>
+
+
+
 
 

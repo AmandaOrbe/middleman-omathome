@@ -1,12 +1,20 @@
   <div class="navbar">
 
-    <div class="navbar-content">
-      <ul class="list-inline links-list">
+    <div class="navbar-content desktop-navbar">
+      <ul class="list-inline links-list ">
         <%= link_to "OMATHOME", "index.html" , id: "logo" %>
         <%= link_to "BLOG", "blog.html"  %>
         <%= link_to "TEACHERS", "teachers.html"  %>
         <%= link_to "LOGIN", "/login.html"  %>
         <%= link_to "SIGNUP", "/signup.html"  %>
+      </ul>
+    </div>
+    <div class="navbar-content mobile-navbar">
+      <%= link_to "OMATHOME", "index.html" , id: "logo" %>
+      <ul class="list-inline links-list ">
+        <%= link_to "BLOG", "blog.html"  %>
+        <%= link_to "TEACHERS", "teachers.html"  %>
+        <%= link_to "LOGIN", "/login.html"  %>
       </ul>
     </div>
   </div>

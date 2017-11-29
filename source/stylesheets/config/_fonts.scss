@@ -56,9 +56,18 @@ p {
 a{
     font-family: 'Montserrat', "Helvetica", "sans-serif";
   font-weight: 200 !important;
-  font-size: 16px;
+  font-size: 14px;
   color:black !important;
   }
+
+
+@media (max-width: 500px) {
+
+  a{
+  font-size: 12px;
+  }
+}
+
 .banner2{
 li{
     font-family: 'Montserrat', "Helvetica", "sans-serif";

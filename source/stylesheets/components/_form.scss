@@ -20,7 +20,7 @@
 
 .LabeledTextInput {
     position: relative;
-    width: 300px;
+    width: 100%;
 }
 
 .TeamForm-input {
@@ -82,8 +82,11 @@
 
 }
 
-.lola{
-  color: #20CA78;
+select{
+  background-color: #20CA78;
 }
 
+option{
+  color: #20CA78;
+}
 

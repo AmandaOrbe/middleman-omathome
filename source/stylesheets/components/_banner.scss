@@ -5,43 +5,66 @@
   justify-content: space-between;
 }
 .container-image {
-    width: 400px;
-    height: 450px;
-    overflow: hidden;
-    margin: 0 auto;
-    text-align:right;
+    width: 100%;
+
 
 }
 .banner1image {
-  height: 450px;
-  width: auto;
+  width: 100%;
+  height: auto;
 
 
 }
 
 .banner1-right {
   text-align: center;
-  width: 430px;
-  margin-left: 50px;
+  width: 90%;
 
 }
 
 .call-to-action{
-  display:flex;
-  justify-content: space-between;
-  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 80% 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.home-form{
-  width: 330px;
+.form-group{
+  grid-row: 1/ span1;
+  grid-column: 1 / span 1;
 }
 
 .price{
-  width: 100px;
+  grid-row: 1/ span1;
+  grid-column: 2 / span 1;
   font-weight: 40px !important;
+  vertical-align: center;
+}
+
+.btn-container{
+  grid-row: 2/ span1;
+  grid-column: 1 / span 2;
   vertical-align: center;
 }
 
 .vertical-center{
   margin-top: 50px;
+}
+
+
+@media (min-width: 767px) {
+  .banner1-right {
+  text-align: center;
+  width: 95%;
+  margin-left: 25px;
+}
+}
+
+@media (max-width: 767px) {
+  .banner1-right {
+  text-align: center;
+  width: 90%;
+  margin:0 auto;
+}
 }
