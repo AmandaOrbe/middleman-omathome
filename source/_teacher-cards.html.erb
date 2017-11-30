@@ -8,8 +8,19 @@
               <%= image_tag teacher[1].photo,  class: "teacher" %>
             </div>
             <div class="avantage-card-text">
+              <br>
+              <ul class="list-inline goldy">
+                <% teacher[1].star.times do %>
+                  <li><i class="fa fa-star"></i></li>
+                <% end %>
+
+                <% (5-teacher[1].star).times do %>
+                  <li><i class="fa fa-star-o"></i></li>
+                <% end %>
+              </ul>
               <h4><%= teacher[1].name %></h4>
               <p><%= teacher[1].tag %></p>
+
             </div>
           </div>
         </div>

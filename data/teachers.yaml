@@ -3,7 +3,7 @@
   description: Benoît est danseur de ballet professionnel. Certifié Yoga Alliance par Global Shala Yoga, il développe un intérêt particulier pour le Pranayama (exercices de respiration), la philosophie du yoga et la médecine Ayurvédique. Il s’inspire du Qi Gong et de la Technique Alexander qu’il intègre à ses cours.
   photo: 1sarah.png
   tag: Yoga
-  stars: 4
+  star: 4
 
 
 
@@ -12,56 +12,57 @@
   description: Diplômé de 500h, certifiées Yoga alliance, Gwendal participe de façon régulière à des formations et stages ( Vedanta, Nada Yoga, Kriya yoga, Nidra yoga, …) afin d’enrichir sa connaissance. Il enseigne pour partager avec enthousiasme et humilité cette pratique millénaire.
   photo: 2benoit.png
   tag: Hatha
-  stars: 5
+  star: 5
 
 -claire:
   name: Claire
-  description: Certifié en yoga vinyasa auprès de Gérard Arnaud (FFY et Alliance Yoga), je suis en mouvement depuis tout jeune. Danse, escalade, kung-fu et jiu-jitsu brésilien m’accompagnent jusqu’à une grave blessure au genou. La nécessité d’instaurer un nouveau rapport à mon corps, plus doux et à l’écoute, m’embarque dans un voyage qui n’a depuis lors cessé de nourrir une aspiration au mieux être. Le yoga se manifeste à moi comme une quête. Une inépuisable source où cultiver l’harmonie. À l’issue d’une licence où j’étudie l’anatomie, la biologie et la physiologie, je me passionne pour l’évolution humaine qui me conduit finalement à réaliser une thèse de doctorat en Anthropologie. Mon cheminement m’engage à revisiter la dimension incarnée de notre humanité au carrefour de l’émotionnel et du spirituel. Le yoga devient mon sanctuaire où je découvre les vertus de l’abandon dans le plaisir d’être soi. D’être tout simplement, pour le pur bonheur d’exister dans le mouvement. Parce qu’il suffit d’un geste pour se mettre en chemin, venez sur le tapis éprouver le bruissement du cœur dans le silence d’un corps apaisé.
+  description: Certifié en yoga vinyasa auprès de Gérard Arnaud (FFY et Alliance Yoga), je suis en mouvement depuis tout jeune. Danse, escalade, kung-fu et jiu-jitsu brésilien m’accompagnent jusqu’à une grave blessure au genou.  Une inépuisable source où cultiver l’harmonie.
   photo: 3claire.png
   tag: Vinyasa Flow, Equilibre & Inversions
-  stars: 5
+  star: 5
 
 
 -cecile:
   name: Cécile
-  description: Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique.C’est à ce moment qu’elle a découvert l’Ashtanga, un vrai coup de cœur ! En suivant les encouragements de son professeur Tetyana s’est lancée dans une formation de 3 ans, L’E.F.A.Y. Elle continue d’approfondir ses connaissances auprès de professeurs internationaux comme Mark Darby, Petri Raisanen et bien d’autres encore
+  description: Après avoir exploré plusieurs approches douces du yoga, hatha, prénatal… depuis son installation à Paris il y a 10 ans, Tetyana a eu envie d’aller vers une pratique plus dynamique.C’est à ce moment qu’elle a découvert l’Ashtanga, un vrai coup de cœur ! t lancée dans une formation de 3 ans, L’E.F.A.Y. Elle continue d’approfondir ses connaissances auprès de professeurs internationaux comme Mark Darby, Petri Raisanen et bien d’autres encore
   photo: 4cecile.png
   tag: Ashtanga
-  stars: 5
+  star: 5
 
 -alicia:
   name: Alicia
-  description: Exploratrice du mouvement au coeur d’une approche pluridisciplinaire, Ola Jas cherche à vivre en synergie et à élargir sa perception du monde. Travailler l’intuition, développer l’élégance dans le mouvement, Ola utilise le corps comme moyen d’optimiser notre énergie vitale. Appliquant une méthodologie de formation contemporaine, fluide et progressive, inspirée par la dimension artistique du cirque elle fait appel à la puissance de l’imagination pour nous conduire vers l’harmonie et la créativité. Ola réside à Ibiza l’été,  voyage en Europe et en Asie le reste de l’année pour affiner sa compréhension et partager son apprentissage du yoga du corps et du mouvement. Découvrez une Professeure de yoga et d’acroyoga nomade, une « bodyworker » expérimentée, une « performeuse ». Son crédo « Tout commence par un sourire intérieur. »
+  description: Exploratrice du mouvement au coeur d’une approche pluridisciplinaire, Ola Jas cherche à vivre en synergie et à élargir sa perception du monde. Travailler l’intuition, développer l’élégance dans le mouvement, Ola utilise le corps comme moyen d’optimiser notre énergie vitale. Appliquant une méthodologie de formation contemporaine, fluide et progressive, inspirée par la dimension artistique du cirque elle fait appel à la puissance.
   photo: 5alicia.png
   tag: Acro-Vinyasa-Yin-Partner Yoga
-  stars: 4
+  star: 4
 
 -olga:
   name: Olga
-  description: Tatiana a commencé à pratiquer le Vinyasa yoga entre 2006 et 2010 à Taiwan avec le professeur newyorkais Jody Quam. Elle est également très influencée par le professeur indien Prathap, qui a développé sa propre voie (Nirvana yoga) et dont elle a suivi les enseignements de 2009 à 2011. Devenue passionnée d’Ashtanga yoga, elle obtient le diplôme de professeur certifié dans cette discipline en 2011 à Mysore (Inde). En 2012, elle passe avec Dina Rodriguez la certification d’Hormone yoga, technique qui l’aide beaucoup dans son travail avec les femmes. En 2016, elle obtient une certification en yoga pré/postnatal de l’Institut De Gasquet et le diplôme de professeur avancé en yoga thérapie à Rishikesh (Inde). Elle a par ailleurs acquis une expérience supplémentaire dans d’autres styles de yoga comme le Hatha Yoga, le Yin Yoga et le Kundalini Yoga.
+  description: Tatiana a commencé à pratiquer le Vinyasa yoga entre 2006 et 2010 à Taiwan avec le professeur newyorkais Jody Quam. Elle est également très influencée par le professeur indien Prathap, qui a développé sa propre voie (Nirvana yoga) et dont elle a suivi les enseignements de 2009 à 2011. Devenue passionnée d’Ashtanga yoga, elle obtient le diplôme de professeur certifié dans cette discipline en 2011 à Mysore (Inde).
   photo: 6olga.png
   tag: Hatha
-  stars: 5
+  star: 5
 
 -georges:
   name: Georges
   description: C’est à travers le souhait d’une reconversion professionnelle que Jean-Marc a découvert le yoga, et plus particulièrement l’Ashtanga. Ancien composant du vaste monde de la communication, il aspire à faire rimer activité et utilité. Il se tourne alors tout naturellement vers l’univers du mouvement, afin de répondre à un besoin essentiel à tout un chacun, le mieux-être. Aujourd’hui, et depuis 3 ans il entretient quotidiennement ce mode de vie.
   photo: 7georges.png
   tag: Ashtanga, Vinyasa Yoga
+  star: 4
 
 -kate:
   name: Kate
   description: C’est au cours de son développement personnel et de sa quête de spiritualité que Sabrina s’est prise de passion pour le yoga. Après avoir travaillé dans l’univers du luxe, elle a éprouvé le besoin de donner un nouveau sens à sa vie, résolument tourné vers la générosité, le bien-être et l’aventure.
   photo: 8kate.png
   tag: Vinyasa Flow, Ashtanga
-
+  star: 4
 
 -yves:
   name: Yves
   description: bbb
   photo: 9yves.png
   tag: Vinyasa Flow, Ashtanga
-
+  star: 4
 
 
 -aya:
@@ -69,12 +70,14 @@
   description: bbb
   photo: 10aya.png
   tag: Mindful meditation
+  star: 5
 
 -mia:
   name: Mia
   description: bbb
   photo: 12mia.png
   tag: Vinyasa
+  star: 5
 
 
 

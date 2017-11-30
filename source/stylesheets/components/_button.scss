@@ -3,6 +3,19 @@
   border-radius: 25px;
   padding: 7px 25px;
 }
+.btn-search{
+  background-color: $gold;
+  border-radius: 25px;
+  padding: 7px 14px;
+  font-size: 12px !important;
+}
+
+.btn-search:hover{
+  background-color: #C7AF92;
+  text-decoration: none;
+  transition:  0.3s ease;
+  font-size: 14px;
+}
 
 .btn-85{
  width: 85%;
@@ -30,6 +43,14 @@
     display: block;
     width: 100%;
     margin-top:30px;
+}
+
+.btn-margin-search{
+      margin: 20px auto;
+}
+
+.btn-slide{
+  margin: 0 auto;
 }
 
 
