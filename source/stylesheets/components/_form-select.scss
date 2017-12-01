@@ -1,0 +1,37 @@
+.jcf-hidden {
+    -webkit-appearance: none;
+    position: absolute;
+    left: -9999px;
+    height: 1px;
+    width: 1px;
+    margin: 0px !important;
+    border-width: 0px !important;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.select-holder {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    overflow: visible;
+  }
+.jcf-unselectable {
+    user-select: none;
+}
+
+.jcf-select .jcf-select-text {
+    display: block;
+    cursor: default;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 4px 42px 0 5px;
+    color: #c6ccd2;
+}
