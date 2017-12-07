@@ -1,5 +1,4 @@
 
- <%=data.teachers.first%>
 
 
  <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -13,7 +12,7 @@
               <div class="slide-teacher-container">
                 <%= image_tag data.teachers.first[1].photo,  class: "slide-picture" %>
               </div>
-              <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-search btn-slide" %>
+
             </div>
             <div class="slide-right">
               <div class="slide-right-content">
@@ -31,6 +30,7 @@
               <p class=" goldy"><%= data.teachers.first[1].tag %></p>
               <p ><%= data.teachers.first[1].description %></p>
               </div>
+              <%= link_to "RESERVEZ VOTRE COURS", "results/#{data.teachers.first[0]}.html" , class: "btn-search btn-slide" %>
             </div>
 
           </div>
@@ -38,36 +38,33 @@
 
 
 <% lol = data.teachers.dup %>
-<%  lol.delete("-sarah") %>
- <% lol.each do |teacher| %>
-        <div class="item ">
+<%  lol.delete("sarah") %>
 
+ <% lol.each do |polo, teacher| %>
+        <div class="item ">
           <div class="slide-container">
             <div class="slide-left">
               <div class="slide-teacher-container">
-                <%= image_tag teacher[1].photo,  class: "slide-picture" %>
+                <%= image_tag teacher.photo,  class: "slide-picture" %>
               </div>
-              <%= link_to "RESERVEZ VOTRE COURS", "form.html" , class: "btn-search btn-slide" %>
             </div>
             <div class="slide-right">
-               <div class="slide-right-content">
-
-              <h2><%= teacher[1].name %></h2>
-              <ul class="list-inline goldy">
-                <% teacher[1].star.times do %>
+              <div class="slide-right-content">
+                <h2><%= teacher.name %></h2>
+                <ul class="list-inline goldy">
+                <% teacher.star.times do %>
                   <li><i class="fa fa-star"></i></li>
                 <% end %>
 
-                <% (5-teacher[1].star).times do %>
+                <% (5-teacher.star).times do %>
                   <li><i class="fa fa-star-o"></i></li>
                 <% end %>
-              </ul>
-
-              <p class=" goldy"><%= teacher[1].tag %></p>
-              <p ><%= teacher[1].description %></p>
-
+                </ul>
+                <p class=" goldy"><%= teacher.tag %></p>
+                <p ><%= teacher.description %></p>
+                <%= link_to "RESERVEZ VOTRE COURS", "results/#{polo}.html" , class: "btn-search btn-slide" %>
+              </div>
             </div>
-          </div>
           </div>
         </div>
         <% end %>

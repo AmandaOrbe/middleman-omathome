@@ -11,40 +11,44 @@
           <br>
           <h1>LE YOGA À LA DEMANDE
           ENFIN À PARIS</h1>
+
           <br>
-          <h2><i>Profitez d’un cours privé de yoga ou médiation où que vous soyez</i></h4>
+          <h2><i>Profitez d’un cours privé de yoga ou méditation où que vous soyez</i></h4>
             <div class="call-to-action">
               <div class="form-group ">
                 <div class="LabeledTextInput TeamForm-input">
-                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">
+                  <div class="LabeledTextInput-label ">cours
                   </div>
-                  <span class="LabeledTextInput-inputContainer">
+                  <div class="LabeledTextInput-inputContainer">
                     <div class="select-holder">
-                      <select name="type-event" id="" class="TextInput LabeledTextInput-field jcf-hidden">
-                        <option value="" class="TextInput LabeledTextInput-field">Cours individuel</option>
-                        <option value="" class="TextInput LabeledTextInput-field">Deux personnes</option>
-                        <option value="" class="TextInput LabeledTextInput-field">Trois personnes</option>
-                        <option value="" class="TextInput LabeledTextInput-field">Quatre personnes</option>
+                      <select name="type-event" id="" class=" LabeledTextInput-field selectpicker ">
+                        <option value="" class=" LabeledTextInput-field">Cours individuel </option>
+                        <option value="" class=" LabeledTextInput-field">Deux personnes</option>
+                        <option value="" class=" LabeledTextInput-field">Trois personnes</option>
+                        <option value="" class=" LabeledTextInput-field">Quatre personnes</option>
                       </select>
                     </div>
-                  </span>
+                  </div>
                 </div>
 
                 <div class="LabeledTextInput TeamForm-input">
-                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Date
+                  <div class="LabeledTextInput-label ">Date
                   </div>
                   <span class="LabeledTextInput-inputContainer">
-                    <input type="date" name="date" id="" class="TextInput LabeledTextInput-field" min="<%Date.today %>">
+                    <input type="date" name="date" id="" class=" LabeledTextInput-field" min="<%Date.today %>">
 
                   </span>
                 </div>
 
+
+
+
                 <div class="LabeledTextInput TeamForm-input ">
-                  <div class="LabeledTextInput-label LabeledTextInput-label--elevated">Heure
+                  <div class="LabeledTextInput-label ">Heure
                   </div>
 
                   <span class="LabeledTextInput-inputContainer">
-                    <input type="time" name="type-event" id="" class="TextInput LabeledTextInput-field" step="1800">
+                    <input type="time" name="type-event" id="" class=" LabeledTextInput-field" step="1800">
                   </span>
                 </div>
               </div>
@@ -58,7 +62,7 @@
             </div>
 
 
-                <%= link_to "RESERVEZ VOTRE COURS", "#" , class: "btn-gold btn-wide" %>
+                <%= link_to "RESERVEZ VOTRE COURS", "results.html" , class: "btn-gold btn-wide" %>
 
             </div>
 

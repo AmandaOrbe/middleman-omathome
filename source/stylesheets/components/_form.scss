@@ -1,22 +1,20 @@
-.form-control {
-  width: 300px;
-  height: 34px;
-  padding: 20px 20px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: black;
-  font-family: 'Montserrat';
-  font-weight: 200;
-  background-color: white;
-
-  border: 1px solid #ccc;
-  border-radius: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+.call-to-action{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 80% 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.form-group{
+  grid-row: 1/ span1;
+  grid-column: 1 / span 1;
+}
+
+
+
+
+
 
 .LabeledTextInput {
     position: relative;
@@ -31,30 +29,20 @@
     font-family: 'Montserrat';
     font-weight: 200;
     font-style: normal;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+
     user-select: none;
     color: #c9cace;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 12px;
     left:6px;
     top: 9px;
     z-index: 1;
-    -webkit-transform: translateY(9px);
-    transform: translateY(9px);
     position: absolute;
     pointer-events: none;
 
 }
 
-.LabeledTextInput-label--elevated {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    font-size: 12px;
-    line-height: 12px;
-}
+
 
 .LabeledTextInput-inputContainer {
     position: relative;
@@ -65,20 +53,81 @@
 
 
 .LabeledTextInput-field {
-    font-family: 'Montserrat';
-    font-weight: 200;
-    color: #404247;
-    font-size: 13px;
-    font-style: normal;
-    text-align: left;
-    height: 48px;
-    width: 100%;
-    padding: 30px 0 12px;
-    resize: none;
-    background-color: transparent;
-    border: 0;
+    font-family: 'Montserrat' !important;
+    font-weight: 200 !important;
+    color: #404247 !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    text-align: left !important;
+    height: 54px !important;
+    width: 100% !important;
+    padding: 25px 0 12px !important;
+    resize: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    outline: 0 !important;
+    margin-top: 8px !important;
+    appearance: none !important;
+
+
+}
+
+
+
+.btn-default{
+  color: #404247 !important;
+background-color: #fff ;
+border-color: white;
+font-family: 'Montserrat', "Helvetica", "sans-serif";
+font-weight: 200;
+box-shadow: 0 1px 0 0 #eee;
+}
+
+.btn-default:hover {
+    color: #404247 ;
+    background-color: white;
+    border-color: white;
+    font-weight:400;
+    box-shadow: 0 1px 0 0 #C9CACE;
+    border-radius: 0;
+}
+
+.btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
+    color: #404247 ;
+    background-color: white;
+    border-color: white;
+    box-shadow: 0;
+    border-radius: 0;
+    font-weight:400;
+}
+
+.btn:active:hover, .btn:active:focus, .btn:active.focus, .btn.active:hover, .btn.active:focus, .btn.active.focus, .open > .btn.dropdown-toggle:hover, .open > .btn.dropdown-toggle:focus, .open > .btn.dropdown-toggle.focus {
+    color: #404247 ;
+    background-color: white;
+    border-color: white;
+    box-shadow: 0;
+    border-radius: 0;
+    font-weight:400;
+}
+
+.btn-group.open .dropdown-toggle{
+    color: #404247 ;
+    background-color: white;
+    border-color: white;
+     box-shadow:  0 0 0 0 ;
+    border-radius: 0;
+    font-weight:400;
+}
+
+.btn-default:focus, .btn-default.focus{
+  background-color: white;
+  font-weight:400;
+
+}
+.btn.focus, .btn:focus {
     outline: 0;
-    margin-top: 8px
+    box-shadow: 0 1px 0 0 #C9CACE;
+    font-weight:400;
 
 }
 
@@ -89,4 +138,6 @@ select{
 option{
   color: #20CA78;
 }
+
+
 
