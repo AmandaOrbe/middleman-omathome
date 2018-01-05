@@ -20,6 +20,7 @@ GEM
     autoprefixer-rails (7.1.6)
       execjs
     backports (3.10.3)
+    bootstrap-datetimepicker (2.1.30)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -96,6 +97,7 @@ GEM
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
     minitest (5.10.3)
+    momentjs-middleman (2.6.1)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
@@ -136,13 +138,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-datetimepicker
+  bootstrap-sass (~> 3.3.1)
   font-awesome-middleman
   jquery-middleman
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-deploy!
   middleman-sprockets
+  momentjs-middleman (~> 2.6, >= 2.6.1)
   pry-byebug
 
 BUNDLED WITH
